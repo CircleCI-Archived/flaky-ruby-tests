@@ -4,7 +4,7 @@ machine:
 
 dependencies:
   post:
-    - ruby app.rb: # will launch the web server on the port 4567
+    - bundle exec ruby app.rb: # will launch the web server on the port 4567
         background: true
 
 test:
