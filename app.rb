@@ -6,6 +6,9 @@ end
 
 get '/data' do
   a = 0
+  300000.times do
+    a = 0
+  end
   100000.times do
     a += 1
   end
