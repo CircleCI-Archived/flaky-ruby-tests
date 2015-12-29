@@ -1,4 +1,4 @@
-require 'selenium-webdriver'
+require_relative 'spec_helper.rb'
 
 driver = Selenium::WebDriver.for :firefox
 

@@ -1,0 +1,8 @@
+dependencies:
+  post:
+    - ruby app.rb: # will launch the web server on the port 4567
+        background: true
+
+test:
+  override:
+    - bundle exec rspec spec/data_test.rb
