@@ -4,7 +4,7 @@ GEM
     childprocess (0.5.8)
       ffi (~> 1.0, >= 1.0.11)
     diff-lcs (1.2.5)
-    ffi (1.9.10)
+    ffi (1.15.5)
     multi_json (1.11.2)
     rack (1.6.4)
     rack-protection (1.5.3)
